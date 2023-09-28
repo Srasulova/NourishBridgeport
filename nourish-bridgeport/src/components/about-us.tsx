@@ -17,7 +17,7 @@ export default function AboutUs() {
                 </div>
             </div>
             <div className="flex justify-center mt-10">
-                <button className="text-red-600 font-semibold text-lg">More about us &darr;</button>
+                <button className="text-red-600 hover:drop-shadow-md font-semibold text-lg hover:text-red-700 hover:font-bold">More about us &darr;</button>
             </div>
 
         </div>
