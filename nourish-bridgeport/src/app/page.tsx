@@ -4,6 +4,7 @@ import HeroArea from '@/components/hero-area'
 import AboutUs from '@/components/about-us'
 import OurPrograms from '@/components/programs'
 import Events from '@/components/events'
+import Footer from '@/components/footer'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <p className='text-center text-3xl font-semibold text-gray-800'>Ready to jump in? <span className='text-red-600'> Visit our Volunteer Page.</span> </p>
       </div>
       <Events />
+      <Footer />
     </main>
   )
 }
