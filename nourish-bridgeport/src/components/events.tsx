@@ -6,7 +6,7 @@ export default function Events() {
         <>
             <div className="events w-4/5 justify-center h-auto mx-auto my-10">
                 <div className="para text-center text-5xl font-bold text-gray-800 py-10">
-                    <p>Upcoming Events</p>
+                    <p className="tracking-wide">Upcoming Events</p>
                 </div>
 
                 <div className="mb-6">

@@ -5,7 +5,7 @@ export default function AboutUs() {
     return (<>
         <div className="about-us-div w-screen justify-center h-auto py-10">
             <div className="para text-center text-5xl font-bold text-gray-800 py-10">
-                <p>We are nOURish BRIDGEPORT</p>
+                <p className="tracking-wide">We are nOURish BRIDGEPORT</p>
             </div>
 
             <div className="info flex w-4/5 h-auto justify-around items-center mx-auto">

@@ -9,7 +9,7 @@ import englishClasses from "../../public/4+x+6+booth+esl.png"
 export default function OurPrograms() {
     return (<>
         <div className=" programs-div w-4/5 justify-center h-auto mx-auto mb-10 bg-stone-100 p-6 rounded">
-            <div className="para text-center text-5xl font-bold text-gray-800 py-10">
+            <div className="para text-center text-5xl font-bold text-gray-800 py-10 tracking-wide">
                 <p>Our Programs</p>
             </div>
 
