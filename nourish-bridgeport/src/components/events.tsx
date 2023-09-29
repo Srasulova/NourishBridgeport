@@ -11,7 +11,7 @@ export default function Events() {
 
                 <div className="mb-6">
                     <p className="text-center text-3xl text-gray-700 pb-2">Check back soon for our next event.</p>
-                    <p className="text-center text-3xl text-gray-700">Don’t want to wait? <span className='text-red-600'>Get on our mailing list by clicking here!</span> </p>
+                    <p className="text-center text-3xl text-gray-700">Don’t want to wait? <span className='text-red-600 font-semibold'>Get on our mailing list by clicking here!</span> </p>
                 </div>
 
                 <div className="my-14">
