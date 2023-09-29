@@ -9,7 +9,7 @@ import Footer from '@/components/footer'
 export default function Home() {
   return (
     <main className="">
-      <NavBar />
+
       <HeroArea />
       <AboutUs />
       <OurPrograms />
@@ -17,7 +17,7 @@ export default function Home() {
         <p className='text-center text-3xl font-semibold text-gray-800'>Ready to jump in? <span className='text-red-600'> Visit our Volunteer Page.</span> </p>
       </div>
       <Events />
-      <Footer />
+
     </main>
   )
 }
