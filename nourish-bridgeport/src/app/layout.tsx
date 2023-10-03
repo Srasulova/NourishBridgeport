@@ -26,8 +26,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${heebo.variable} font-sans`}>
         <NavBar />
-        {children}</body>
-      <Footer />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }
