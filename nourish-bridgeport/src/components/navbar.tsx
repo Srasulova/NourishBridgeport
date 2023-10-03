@@ -1,5 +1,6 @@
 import Image from "next/image"
 import logo from "../../public/logo.png"
+import Link from "next/link"
 
 export default function NavBar() {
     return (
@@ -35,13 +36,13 @@ export default function NavBar() {
                         </div>
                         <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                             {/* <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-600 hover:text-gray-700" --> */}
-                            <a href="#" className="inline-flex items-center  underline decoration-2 decoration-red-600 hover:underline hover:decoration-2  hover:decoration-green-600 hover:text-gray-700 px-1 pt-1  font-medium text-gray-900">Home</a>
-                            <a href="#" className="inline-flex items-center  px-1 pt-1  font-medium text-gray-500 hover:underline hover:decoration-2 hover:decoration-green-600 hover:text-gray-700">About Us</a>
-                            <a href="#" className="inline-flex items-center  px-1 pt-1  font-medium text-gray-500 hover:underline hover:decoration-2 hover:decoration-green-600 hover:text-gray-700">Programs</a>
-                            <a href="#" className="inline-flex items-center  px-1 pt-1  font-medium text-gray-500 hover:underline hover:decoration-2 hover:decoration-green-600 hover:text-gray-700">Donate</a>
-                            <a href="#" className="inline-flex items-center  px-1 pt-1  font-medium text-gray-500 hover:underline hover:decoration-2 hover:decoration-green-600 hover:text-gray-700">Volunteer</a>
-                            <a href="#" className="inline-flex items-center  px-1 pt-1  font-medium text-gray-500 hover:underline hover:decoration-2 hover:decoration-green-600 hover:text-gray-700">Events</a>
-                            <a href="#" className="inline-flex items-center  px-1 pt-1  font-medium text-gray-500 hover:underline hover:decoration-2 hover:decoration-green-600 hover:text-gray-700">Contact Us</a>
+                            <Link href="/" className="inline-flex items-center  underline decoration-2 decoration-red-600 hover:underline hover:decoration-2  hover:decoration-green-600 hover:text-gray-700 px-1 pt-1  font-medium text-gray-900">Home</Link>
+                            <Link href="/about-us" className="inline-flex items-center  px-1 pt-1  font-medium text-gray-500 hover:underline hover:decoration-2 hover:decoration-green-600 hover:text-gray-700">About Us</Link>
+                            <Link href="/our-programs" className="inline-flex items-center  px-1 pt-1  font-medium text-gray-500 hover:underline hover:decoration-2 hover:decoration-green-600 hover:text-gray-700">Programs</Link>
+                            <Link href="#" className="inline-flex items-center  px-1 pt-1  font-medium text-gray-500 hover:underline hover:decoration-2 hover:decoration-green-600 hover:text-gray-700">Donate</Link>
+                            <Link href="#" className="inline-flex items-center  px-1 pt-1  font-medium text-gray-500 hover:underline hover:decoration-2 hover:decoration-green-600 hover:text-gray-700">Volunteer</Link>
+                            <Link href="#" className="inline-flex items-center  px-1 pt-1  font-medium text-gray-500 hover:underline hover:decoration-2 hover:decoration-green-600 hover:text-gray-700">Events</Link>
+                            <Link href="#" className="inline-flex items-center  px-1 pt-1  font-medium text-gray-500 hover:underline hover:decoration-2 hover:decoration-green-600 hover:text-gray-700">Contact Us</Link>
                         </div>
                     </div>
 
@@ -52,13 +53,13 @@ export default function NavBar() {
             <div className="sm:hidden" id="mobile-menu">
                 <div className="space-y-1 pb-4 pt-2">
                     {/* <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" --> */}
-                    <a href="#" className="block border-l-4 border-green-600 bg-green-50 py-2 pl-3 pr-4 text-base font-medium text-green-700">Home</a>
-                    <a href="#" className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-600 hover:bg-gray-50 hover:text-gray-700">About Us</a>
-                    <a href="#" className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-600 hover:bg-gray-50 hover:text-gray-700">Programs</a>
-                    <a href="#" className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-600 hover:bg-gray-50 hover:text-gray-700">Donate</a>
-                    <a href="#" className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-600 hover:bg-gray-50 hover:text-gray-700">Volunteer</a>
-                    <a href="#" className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-600 hover:bg-gray-50 hover:text-gray-700">Events</a>
-                    <a href="#" className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-600 hover:bg-gray-50 hover:text-gray-700">Contact us</a>
+                    <Link href="/" className="block border-l-4 border-green-600 bg-green-50 py-2 pl-3 pr-4 text-base font-medium text-green-700">Home</Link>
+                    <Link href="/about-us" className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-600 hover:bg-gray-50 hover:text-gray-700">About Us</Link>
+                    <Link href="/our-programs" className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-600 hover:bg-gray-50 hover:text-gray-700">Programs</Link>
+                    <Link href="#" className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-600 hover:bg-gray-50 hover:text-gray-700">Donate</Link>
+                    <Link href="#" className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-600 hover:bg-gray-50 hover:text-gray-700">Volunteer</Link>
+                    <Link href="#" className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-600 hover:bg-gray-50 hover:text-gray-700">Events</Link>
+                    <Link href="#" className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-600 hover:bg-gray-50 hover:text-gray-700">Contact us</Link>
                 </div>
             </div>
         </nav>
