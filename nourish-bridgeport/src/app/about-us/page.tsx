@@ -62,30 +62,204 @@ export default function AboutUs() {
                     <p className="tracking-wide text-center text-5xl font-bold text-gray-800">Our Team</p>
                     <p className="text-center text-2xl font-medium text-gray-700 my-10">Volunteer Leadership</p>
                     <p className="text-gray-600 text-center my-10">nOURish BRIDGEPORT, Inc. is fortunate to be governed by a volunteer board comprised of major community leaders, with our primary leadership provided by:</p>
-                    <p className=" text-xl mx-auto w-max text-gray-700">
+                    {/* <p className=" text-xl mx-auto w-max text-gray-700">
                         <span className="text-red-400 font-medium">John F. Stafstrom, Jr. ,</span>  Finance and Development Committee Chair <br />
                         <span className="text-red-400 font-medium">Clare Stafstrom,</span> Board Chair <br />
                         <span className="text-red-400 font-medium">Ben Branyan,</span> Board Vice-Chair <br />
                         <span className="text-red-400 font-medium">George P. Carter,</span> Founding Board Member <br />
                         <span className="text-red-400 font-medium">Kirsten Nestro,</span> Secretary <br />
                         <span className="text-red-400 font-medium">Jessica Layman,</span> Treasurer <br />
-                    </p>
-                    <p className="text-gray-600 text-left my-10">All our programs are also volunteer-powered, with approximately 2,500 adults and youth volunteering throughout the year at our various program sites. Several organizations have taken the official step of becoming “mission/mitzvah” partners, committing financial and human resources to help us serve our neighbors in need in Bridgeport. </p>
-                    <p className="tracking-wide text-center text-5xl font-bold text-gray-800 my-10">Staff Leadership</p>
+                    </p> */}
 
-                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                        <div className="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+
+                    <ul role="list" className="mx-auto w-2/3 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
+                        <li className="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+                            <div className="flex flex-1 flex-col p-8">
+                                <Image className="mx-auto h-32 w-32 flex-shrink-0 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="" width={25} height={25} />
+                                <h3 className="mt-6 text-sm font-medium text-gray-900">John F. Stafstrom, Jr.</h3>
+                                <dl className="mt-1 flex flex-grow flex-col justify-between">
+                                    <dt className="sr-only">Title</dt>
+                                    <dd className="text-sm text-gray-500">Finance and Development Committee Chair</dd>
+                                    <dt className="sr-only">Role</dt>
+
+                                </dl>
+                            </div>
+                        </li>
+
+                        <li className="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+                            <div className="flex flex-1 flex-col p-8">
+                                <Image className="mx-auto h-32 w-32 flex-shrink-0 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="" width={25} height={25} />
+                                <h3 className="mt-6 text-sm font-medium text-gray-900">Clare Stafstrom</h3>
+                                <dl className="mt-1 flex flex-grow flex-col justify-between">
+                                    <dt className="sr-only">Title</dt>
+                                    <dd className="text-sm text-gray-500">Board Chair</dd>
+                                    <dt className="sr-only">Role</dt>
+
+                                </dl>
+                            </div>
+                        </li>
+
+                        <li className="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+                            <div className="flex flex-1 flex-col p-8">
+                                <Image className="mx-auto h-32 w-32 flex-shrink-0 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="" width={25} height={25} />
+                                <h3 className="mt-6 text-sm font-medium text-gray-900">Ben Branyan</h3>
+                                <dl className="mt-1 flex flex-grow flex-col justify-between">
+                                    <dt className="sr-only">Title</dt>
+                                    <dd className="text-sm text-gray-500">Board Vice-Chair</dd>
+                                    <dt className="sr-only">Role</dt>
+
+                                </dl>
+                            </div>
+                        </li>
+
+                        <li className="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+                            <div className="flex flex-1 flex-col p-8">
+                                <Image className="mx-auto h-32 w-32 flex-shrink-0 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="" width={25} height={25} />
+                                <h3 className="mt-6 text-sm font-medium text-gray-900">George P. Carter</h3>
+                                <dl className="mt-1 flex flex-grow flex-col justify-between">
+                                    <dt className="sr-only">Title</dt>
+                                    <dd className="text-sm text-gray-500">Founding Board Member</dd>
+                                    <dt className="sr-only">Role</dt>
+
+                                </dl>
+                            </div>
+                        </li>
+
+                        <li className="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+                            <div className="flex flex-1 flex-col p-8">
+                                <Image className="mx-auto h-32 w-32 flex-shrink-0 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="" width={25} height={25} />
+                                <h3 className="mt-6 text-sm font-medium text-gray-900">Kirsten Nestro</h3>
+                                <dl className="mt-1 flex flex-grow flex-col justify-between">
+                                    <dt className="sr-only">Title</dt>
+                                    <dd className="text-sm text-gray-500">Secretary</dd>
+                                    <dt className="sr-only">Role</dt>
+
+                                </dl>
+                            </div>
+                        </li>
+
+                        <li className="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
+                            <div className="flex flex-1 flex-col p-8">
+                                <Image className="mx-auto h-32 w-32 flex-shrink-0 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="" width={25} height={25} />
+                                <h3 className="mt-6 text-sm font-medium text-gray-900">Jessica Layman</h3>
+                                <dl className="mt-1 flex flex-grow flex-col justify-between">
+                                    <dt className="sr-only">Title</dt>
+                                    <dd className="text-sm text-gray-500">Treasurer</dd>
+                                    <dt className="sr-only">Role</dt>
+
+                                </dl>
+                            </div>
+                        </li>
+
+                        {/* <!-- More people... --> */}
+                    </ul>
+
+
+                    <p className="text-gray-600 text-left my-10">All our programs are also volunteer-powered, with approximately 2,500 adults and youth volunteering throughout the year at our various program sites. Several organizations have taken the official step of becoming “mission/mitzvah” partners, committing financial and human resources to help us serve our neighbors in need in Bridgeport. </p>
+                    <p className="tracking-wide text-center text-5xl font-bold text-gray-800 my-14">Staff Leadership</p>
+
+
+                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 mx-auto mb-20 w-4/5">
+                        <div className="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm hover:border-gray-400">
                             <div className="flex-shrink-0">
-                                <Image className="h-10 w-10 rounded-full" src="https://unsplash.com/photos/AJIqZDAUD7A" alt="something" width={20} height={20} />
+                                <Image className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="something" width={25} height={25} />
                             </div>
                             <div className="min-w-0 flex-1">
-                                <a href="#" className="focus:outline-none">
-                                    <span className="absolute inset-0" aria-hidden="true"></span>
-                                    <p className="text-sm font-medium text-gray-900">Leslie Alexander</p>
-                                    <p className="truncate text-sm text-gray-500">Co-Founder / CEO</p>
-                                </a>
+                                <span className="absolute inset-0" aria-hidden="true"></span>
+                                <p className="text-sm font-medium text-gray-700">Reverend Sara D. Smith, Esq.</p>
+                                <p className="truncate text-sm text-gray-500">President and CEO</p>
                             </div>
                         </div>
+
+                        <div className="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm hover:border-gray-400">
+                            <div className="flex-shrink-0">
+                                <Image className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="something" width={20} height={20} />
+                            </div>
+                            <div className="min-w-0 flex-1">
+                                <span className="absolute inset-0" aria-hidden="true"></span>
+                                <p className="text-sm font-medium text-gray-700">Ricky Rivera</p>
+                                <p className="truncate text-sm text-gray-500">Chief Operating Officer (COO)</p>
+                            </div>
+                        </div>
+
+                        <div className="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm hover:border-gray-400">
+                            <div className="flex-shrink-0">
+                                <Image className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="something" width={20} height={20} />
+                            </div>
+                            <div className="min-w-0 flex-1">
+                                <span className="absolute inset-0" aria-hidden="true"></span>
+                                <p className="text-sm font-medium text-gray-700">Tshon Davis </p>
+                                <p className="truncate text-sm text-gray-500">Director of Volunteers, Food Pantry and Baby Center</p>
+                            </div>
+                        </div>
+
+                        <div className="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm hover:border-gray-400">
+                            <div className="flex-shrink-0">
+                                <Image className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="something" width={20} height={20} />
+                            </div>
+                            <div className="min-w-0 flex-1">
+                                <span className="absolute inset-0" aria-hidden="true"></span>
+                                <p className="text-sm font-medium text-gray-700">Chris Lofaro</p>
+                                <p className="truncate text-sm text-gray-500">Feel The Warmth Community Supper Director</p>
+                            </div>
+                        </div>
+
+                        <div className="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm hover:border-gray-400">
+                            <div className="flex-shrink-0">
+                                <Image className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="something" width={20} height={20} />
+                            </div>
+                            <div className="min-w-0 flex-1">
+                                <span className="absolute inset-0" aria-hidden="true"></span>
+                                <p className="text-sm font-medium text-gray-700">Lisa Matson</p>
+                                <p className="truncate text-sm text-gray-500">English as a Second Language (ESL) Program Director</p>
+                            </div>
+                        </div>
+
+                        <div className="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm hover:border-gray-400">
+                            <div className="flex-shrink-0">
+                                <Image className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="something" width={20} height={20} />
+                            </div>
+                            <div className="min-w-0 flex-1">
+                                <span className="absolute inset-0" aria-hidden="true"></span>
+                                <p className="text-sm font-medium text-gray-700">Lezli Albelo</p>
+                                <p className="truncate text-sm text-gray-500">nOURish INDOOR FARM Director</p>
+                            </div>
+                        </div>
+
+                        <div className="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm hover:border-gray-400">
+                            <div className="flex-shrink-0">
+                                <Image className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="something" width={20} height={20} />
+                            </div>
+                            <div className="min-w-0 flex-1">
+                                <span className="absolute inset-0" aria-hidden="true"></span>
+                                <p className="text-sm font-medium text-gray-700">Pascale Millien-Faustin</p>
+                                <p className="truncate text-sm text-gray-500">Executive Assistant to the CEO</p>
+                            </div>
+                        </div>
+
+                        <div className="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm hover:border-gray-400">
+                            <div className="flex-shrink-0">
+                                <Image className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="something" width={20} height={20} />
+                            </div>
+                            <div className="min-w-0 flex-1">
+                                <span className="absolute inset-0" aria-hidden="true"></span>
+                                <p className="text-sm font-medium text-gray-700">Chris Carbone</p>
+                                <p className="truncate text-sm text-gray-500">Assistant to the COO and Social Media Manager</p>
+                            </div>
+                        </div>
+
+                        <div className="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm hover:border-gray-400">
+                            <div className="flex-shrink-0">
+                                <Image className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="something" width={20} height={20} />
+                            </div>
+                            <div className="min-w-0 flex-1">
+                                <span className="absolute inset-0" aria-hidden="true"></span>
+                                <p className="text-sm font-medium text-gray-700">Margaret Kane</p>
+                                <p className="truncate text-sm text-gray-500">Donor Relations</p>
+                            </div>
+                        </div>
+
+
 
 
                     </div>
